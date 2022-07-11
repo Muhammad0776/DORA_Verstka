@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gentium Book Plus', sans-serif;
+}
+
+
+header {
+    background-color: rgba(202, 243, 249, 0.983);
+    clip-path: polygon(100% 0, 100% 56%, 0 99%, 0 100%, 0 0);
+    height: 750px;
+    padding: 0 45px;
+}
+
+.line1 {
+    width: 40px;
+    height: 2px;
+    background-color: rgb(74, 74, 74);
+    border-radius: 15px;
+}
+
+.line2 {
+    width: 20px;
+    height: 2px;
+    background-color: rgb(74, 74, 74);
+    border-radius: 15px;
+}
+
+.telBtn {
+    text-decoration: none;
+    color: #111;
+}
+
+#rounBtn {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.title1 {
+    font-size: 130px;
+    font-weight: 400;
+    font-family: 'Gentium Book Plus', sans-serif;
+    letter-spacing: 8px;
+    margin-top: 80px;
+    padding-left: 100px;
+}
+
+
+.paragr2 {
+    position: absolute;
+    right: 190px;
+    top: 190px;
+    font-size: 18px;
+    font-family: 'Gentium Book Plus', sans-serif;
+    font-weight: 300;
+}
+
+.doir {
+    z-index: 1000;
+    position: absolute;
+    top: 460px;
+    left: 1080px;
+    width: 145px;
+    height: 145px;
+    background-color: #111;
+    border-radius: 50%;
+}
+
+
+.section1 {
+    height: 600px;
+    padding: 90px 10px;
+    position: relative;
+}
+
+.card {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.title2 {
+    font-size: 100px;
+}
+
+.bgTitle {
+    position: absolute;
+    top: 450px;
+    left: 680px;
+    width: 120px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.section2 {
+    height: 600px;
+    position: relative;
+}
+
+.bgTitle2 {
+    position: absolute;
+    top: 450px;
+    left: 680px;
+    width: 140px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.num {
+    font-size: 25px;
+
+}
+
+.titles {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Gentium Book Plus', sans-serif;
+}
+
+.section4 {
+    width: 100%;
+    padding: 40px;
+    margin: 0;
+}
+
+.doir2 {
+    background-color: #111;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    margin-left: 740px;
+    cursor: pointer;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.boxTitle {
+    margin: 55px auto;
+    width: 120px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.section5 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.foot {
+    position: relative;
+    bottom: -180px;
+    height: 450px;
+    padding: 80px;
+    background-color: rgba(30, 30, 30, 0.983);
+    clip-path: polygon(100% 0, 100% 50%, 0 99%, 0 100%, 0 0);
+}
+
+.boxBtn {
+    margin-bottom: 10px;
+    margin-left: 45px;
+    width: 155px;
+    border-radius: 15px;
+    border: 0.5px solid #ccc;
+}
+
+.title01 {
+    font-size: 46px;
+}
+
+.littleTitle {
+    font-size: 1rem;
+    color: rgb(113, 112, 112);
+}
+
+.boxIcon {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+#footer {
+    display: block;
+    position: relative;
+    background-color: rgba(202, 243, 249, 0.983);
+    clip-path: polygon(100% 0, 100% 38%, 100% 100%, 0 100%, 0 50%);
+    height: 700px;
+    padding: 0 45px;
+}
+
+.boxFoot {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    padding: 0 180px;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+.titleFoot {
+    font-size: 60px;
+    font-weight: 300;
+    font-family: 'Gentium Book Plus', sans-serif;
+}
+
+.endFooter {
+    height: 60px;
+    background-color: rgb(74, 74, 74);
+}
+
+.boxIcon2 {
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.okBox {
+    margin-top: 30px;
+    width: 130px;
+    background-color: rgb(74, 74, 74) !important;
+    border-radius: 50px !important;
+}
+
+.linktitle {
+    color: #fff;
+    text-decoration: none;
+}
